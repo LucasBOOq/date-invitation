@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0e9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 24px;
+}
+
+input, select {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #f4979e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#result-message {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.heart-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.heart {
+    width: 100%;
+}
+
+.percentage {
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.accept-question {
+    margin-top: 20px;
+}
+
+.accept-question h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.accept-button, .decline-button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
